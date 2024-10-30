@@ -10,5 +10,5 @@ repository = "https://github.com/arnodb/bulletml_viewer_rs"
 
 [dependencies]
 bulletml = "0.2"
-piston_window = "0.107"
-rand = "0.7"
+piston_window = "0.132"
+rand = "0.8"
