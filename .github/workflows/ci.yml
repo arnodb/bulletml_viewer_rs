@@ -12,11 +12,5 @@ jobs:
     with:
       rust_toolchain: stable
       with_rustfmt: true
-
-  main_1_56_1:
-    name: Rust 1.56.1
-    uses: ./.github/workflows/_build.yml
-    with:
-      rust_toolchain: 1.56.1
       with_clippy: true
 
